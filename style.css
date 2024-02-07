@@ -10,11 +10,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#FF9A8B, #FF6A88, #ff99ac);
+    background: linear-gradient(#FF6A88, #888B8D, #FF6A88);
     /* background-color: slategray; */
     font-family: sans-serif;
 }
 
+span {
+    color: #494B4D;
+}
+
+/* #FF9A8B #ff99ac*/
 #container {
     position: relative;
     padding: 7px;
@@ -29,8 +34,8 @@ body {
     top: 0;
     transform: translateX(-50%);
     background: #000;
-    color: #fff;
-    white-space: pre-line;
+    color: #AC9F3C; /* #44D62C */
+    white-space: nowrap;
     padding: 10px 15px;
     border-radius: 15px;
     visibility: hidden;
