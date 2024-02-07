@@ -32,7 +32,7 @@ body {
     color: #fff;
     white-space: nowrap;
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 15px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s ease;
