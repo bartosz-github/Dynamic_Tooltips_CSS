@@ -21,3 +21,17 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+#tooltip-content {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background: black;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
