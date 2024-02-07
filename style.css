@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#8bc6ec, #9599e2);
+    background: linear-gradient(#FF9A8B, #9599e2);
     /* background-color: slategray; */
     font-family: sans-serif;
 }
@@ -47,16 +47,6 @@ body {
     border: 15px solid;
     border-color: #000#0000#0000#0000;
 }
-
-#tooltip-content::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    border: 15px solid;
-    border-color: #000 #0000 #0000 #0000;
-  }
 
 #container:hover #tooltip-content {
     top: -130%;
