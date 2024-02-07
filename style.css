@@ -20,7 +20,7 @@ body {
     padding: 7px;
     font-size: 25px;
     font-weight: bold;
-    cursor: pointer;
+    cursor: alias; 
 }
 
 #tooltip-content {
